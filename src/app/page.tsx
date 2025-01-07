@@ -47,8 +47,9 @@ const Page = () => {
         </div>
         <div className="p-5 text-center border-t border-gray-300">
           {!showResult &&
-            `${currentQuestion + 1} de ${questions.length} pergunta
-          ${questions.length === 1 ? "" : "s"}`}
+            `${currentQuestion + 1} de ${questions.length} pergunta${
+              questions.length === 1 ? "" : "s"
+            }`}
           {showResult && (
             <button
               onClick={handleRestartButton}

@@ -2,7 +2,7 @@ import { Question } from "@/types/Question";
 
 export const questions: Question[] = [
   {
-    question: "Qual ingrediente não é obrigatório?",
+    question: "Qual ingrediente não é obrigatório para fazer um bolo?",
     options: ["Farinha", "Corante", "Leite", "Açúcar"],
     answer: 1,
   },
