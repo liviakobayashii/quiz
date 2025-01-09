@@ -40,20 +40,19 @@ export const QuestionItem = ({ question, count, onAnswer }: Props) => {
                     : "cursor-pointer hover:opacity-60"
                 }
                 ${
+                  // Se a resposta correta for a escolhida, ou se a resposta correta deve ser destacada
                   selectedAnswer !== null &&
-                  selectedAnswer === question.answer &&
-                  selectedAnswer === key &&
+                  (selectedAnswer === key || question.answer === key) &&
+                  question.answer === key &&
                   "bg-green-100 border-green-300"
                 }
-
                 ${
                   selectedAnswer !== null &&
                   selectedAnswer !== question.answer &&
                   selectedAnswer === key &&
                   "bg-red-100 border-red-300"
                 }
-
-                `}
+             `}
           >
             {item}
           </div>
