@@ -10,7 +10,7 @@ const Page = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
 
-  const title = "Quiz de culinária";
+  const title = "Quiz de curiosidades da área da tecnologia";
 
   const loadNextQuestion = () => {
     if (questions[currentQuestion + 1]) {
