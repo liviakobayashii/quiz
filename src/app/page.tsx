@@ -32,9 +32,11 @@ const Page = () => {
   };
 
   return (
-    <div className="w-screen h-screen flex justify-center items-center bg-blue-600">
+    <div className="w-screen h-screen flex justify-center items-center bg-blue-600 bg-[url('/images/background.jpg')] bg-cover">
       <div className="w-full max-w-xl rounded-md bg-white text-black shadow shadow-black">
-        <div className="p-5 font-bold border-b border-gray-400">{title}</div>
+        <div className="p-5 font-bold  text-xl border-b border-gray-400">
+          {title}
+        </div>
         <div className="p-5">
           {!showResult && (
             <QuestionItem
@@ -53,7 +55,7 @@ const Page = () => {
           {showResult && (
             <button
               onClick={handleRestartButton}
-              className="p-3 py-2 rounded-md bg-blue-800 text-white"
+              className="p-3 py-2 rounded-md bg-blue-800 text-white hover:opacity-90 transition-opacity"
             >
               Reiniciar Quiz
             </button>
