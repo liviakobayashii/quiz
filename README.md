@@ -1,7 +1,14 @@
-# 🍧Quiz de curiosidades da tecnologia!
-Sistema de quiz sobre curiosidades tecnológicas, desenvolvido para interatividade e aprendizado. O usuário pode responder perguntas, verificar se acertou ou errou, e obter um resumo do desempenho ao final.
+# ❔Quiz de curiosidades da tecnologia!
+Um sistema interativo desenvolvido para aprendizado e entretenimento, combinando conhecimento e diversão em um formato de perguntas e respostas.
+
 Deploy do projeto:
 https://quiz-liviakobayashii.vercel.app
+
+## Funcionalidades
+*Responda perguntas sobre curiosidades tecnológicas.
+*Confira o resultado de cada resposta (correta ou incorreta).
+*Obtenha um resumo do desempenho ao final do quiz.
+
 ## Tecnologias utilizadas
 * Next
 * React
