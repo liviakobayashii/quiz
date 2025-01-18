@@ -10,7 +10,7 @@ https://quiz-liviakobayashii.vercel.app
 * Obtenha um resumo do desempenho ao final do quiz.
 
 ## Tecnologias utilizadas
-* Next
-* React
+* NextJS
+* ReactJS
 * TypeScript
 * Tailwind
