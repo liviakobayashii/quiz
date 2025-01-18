@@ -1,4 +1,4 @@
-# ❓Quiz de curiosidades da área da tecnologia!
+# ❓Quiz de curiosidades da área da tecnologia
 Um sistema interativo desenvolvido para aprendizado e entretenimento, combinando conhecimento e diversão em um formato de perguntas e respostas.
 
 Deploy do projeto:
