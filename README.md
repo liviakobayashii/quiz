@@ -13,4 +13,4 @@ https://quiz-liviakobayashii.vercel.app
 * NextJS
 * ReactJS
 * TypeScript
-* Tailwind
+* TailwindCSS
